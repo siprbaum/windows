@@ -114,9 +114,10 @@
                 </SynchronousCommand>
             </FirstLogonCommands>
             <OOBE>
+                <HideEULAPage>true</HideEULAPage>
+		<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
                 <NetworkLocation>Work</NetworkLocation>
                 <ProtectYourPC>3</ProtectYourPC>
-                <HideEULAPage>true</HideEULAPage>
             </OOBE>
             <UserAccounts>
                 <LocalAccounts>
