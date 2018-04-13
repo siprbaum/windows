@@ -14,6 +14,7 @@
         "floppy/disablewinupdate.bat",
         "floppy/eval-win10x64-enterprise/Autounattend.xml",
         "floppy/fixnetwork.ps1",
+        "floppy/id_rsa.pub",
         "floppy/install-winrm.cmd",
         "floppy/passwordchange.bat",
         "floppy/powerconfig.bat",
@@ -53,6 +54,7 @@
         "floppy/disablewinupdate.bat",
         "floppy/eval-win10x64-enterprise/Autounattend.xml",
         "floppy/fixnetwork.ps1",
+        "floppy/id_rsa.pub",
         "floppy/install-winrm.cmd",
         "floppy/oracle-cert.cer",
         "floppy/passwordchange.bat",
@@ -110,6 +112,7 @@
         "floppy/disablewinupdate.bat",
         "floppy/eval-win10x64-enterprise/Autounattend.xml",
         "floppy/fixnetwork.ps1",
+        "floppy/id_rsa.pub",
         "floppy/install-winrm.cmd",
         "floppy/passwordchange.bat",
         "floppy/powerconfig.bat",
@@ -165,8 +168,7 @@
         "script/vmtool.bat",
         "script/clean.bat",
         "script/ultradefrag.bat",
-        "script/uninstall-7zip.bat",
-        "script/sdelete.bat"
+        "script/uninstall-7zip.bat"
       ],
       "type": "windows-shell"
     }
